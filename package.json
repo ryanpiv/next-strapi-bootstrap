@@ -1,0 +1,22 @@
+{
+  "name": "next-strapi-bootsrap",
+  "version": "1.0.0",
+  "description": "Nextjs, Strapi, Magic and Stripe",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanpiv/next-strapi-bootstrap"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanpiv/next-strapi-bootstrap/issues"
+  },
+  "scripts": {
+    "client": "cd client && npm run dev",
+    "api": "cd api && npm run develop"
+  },
+  "homepage": "https://github.com/ryanpiv/next-strapi-bootstrap#readme",
+  "workspaces": [
+    "client/*"
+  ]
+}

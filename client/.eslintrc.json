@@ -1,0 +1,29 @@
+{
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "parser": "babel-eslint",
+  "extends": ["next", "next/core-web-vitals", "airbnb"],
+  "rules": {
+    "strict": "off",
+    "arrow-body-style": "warn",
+    "no-console": "error",
+    "max-len": ["error", 120],
+    "class-methods-use-this": "off",
+    "react/jsx-filename-extension": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "off",
+    "jsx-a11y/label-has-associated-control": "warn",
+    "jsx-a11y/label-has-for": "warn",
+    "newline-per-chained-call": ["error", { "ignoreChainWithDepth": 5 }],
+    "camelcase": "off",
+    "react/jsx-max-props-per-line": [
+      "error",
+      {
+        "maximum": 1,
+        "when": "always"
+      }
+    ]
+  }
+}
