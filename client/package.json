@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@stripe/stripe-js": "^1.17.1",
     "magic-sdk": "^4.4.2",
     "next": "11.1.0",
     "react": "17.0.2",

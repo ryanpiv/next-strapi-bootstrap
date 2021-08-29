@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import React from 'react';
 
+import BuyButton from '../../components/BuyButton';
+
 import { fromImageToUrl, API_URL } from '../../utils/urls';
 import { twoDecimals } from '../../utils/format';
 
@@ -25,6 +27,7 @@ const Product = ({ product }) => (
       alt=""
     />
     <h3>{product.name}</h3>
+    <BuyButton product={product} />
     <p>
       $
       {twoDecimals(product.price)}
