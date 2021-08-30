@@ -82,6 +82,7 @@ export default function Account() {
         {' '}
         {user.email}
       </p>
+      { /* eslint-disable-next-line jsx-a11y/anchor-is-valid */ }
       <a
         href="#"
         onClick={logoutUser}

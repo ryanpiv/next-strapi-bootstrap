@@ -32,6 +32,7 @@ export default function BuyButton({ product }) {
 
     const session = await res.json();
 
+    // eslint-disable-next-line no-unused-vars
     const result = await stripe.redirectToCheckout({
       sessionId: session.id,
     });

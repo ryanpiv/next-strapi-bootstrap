@@ -8,7 +8,7 @@
   "rules": {
     "strict": "off",
     "arrow-body-style": "warn",
-    "no-console": "error",
+    "no-console": "warn",
     "max-len": ["error", 120],
     "class-methods-use-this": "off",
     "react/jsx-filename-extension": "off",
@@ -18,6 +18,10 @@
     "jsx-a11y/label-has-for": "warn",
     "newline-per-chained-call": ["error", { "ignoreChainWithDepth": 5 }],
     "camelcase": "off",
+    "react/prop-types": "warn",
+    "jsx-a11y/anchor-is-valid": "warn",
+    "react/jsx-props-no-spreading": "warn",
+    "@next/next/no-html-link-for-pages": "warn",
     "react/jsx-max-props-per-line": [
       "error",
       {

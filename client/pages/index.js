@@ -28,9 +28,11 @@ export default function Home({ products }) {
           className={styles.product}
         >
           <Link href={`/products/${product.slug}`}>
+            { /* eslint-disable-next-line jsx-a11y/anchor-is-valid */ }
             <a>
               <div className={styles.product__Row}>
                 <div className={styles.product__ColImg}>
+                  { /* eslint-disable-next-line jsx-a11y/alt-text */ }
                   <img src={fromImageToUrl(product.image)} />
                 </div>
                 <div styles={styles.product__Col}>
